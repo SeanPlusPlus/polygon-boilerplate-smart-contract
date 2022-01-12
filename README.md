@@ -1,15 +1,22 @@
 # Basic Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic smart contract using Hardhat, deploying to the Polygon Mumbai Testnet.
 
-Try running some of the following tasks:
+### Install
+
+```
+npm install
+```
+
+### ENV
+
+Make sure to create a `.env` file
+
+You will need to create an app [on Alchemy](https://dashboard.alchemyapi.io/) and save your `ALCHEMY_API_URL` to your to your `.env` file
+
+You will also need to save your `PRIVATE_KEY` exported from Metamask to your `.env` file as well
+
+###
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
