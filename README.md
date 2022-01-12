@@ -35,3 +35,7 @@ You can now use the contract address and the JSON ABI in a JS app, for example, 
 - https://polygon-boilerplate.vercel.app/
 
 - https://github.com/SeanPlusPlus/polygon-boilerplate
+
+### Inspiration
+
+This code was inspired by an excellent [https://buildspace.so/solidity](Solidity tutorial on Buildspace).
